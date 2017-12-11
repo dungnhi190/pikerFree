@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="ha.thanh.pikerfree.activities.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/plate_brown_shade"
+            android:hint="@string/input_email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/GrayScale"
+            android:textSize="16sp" />
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/plate_brown_shade"
+            android:hint="@string/input_username"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/GrayScale"
+            android:textSize="16sp" />
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/plate_brown_shade"
+            android:hint="@string/email"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/GrayScale"
+            android:textSize="16sp" />
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/et_pass_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/plate_brown_shade"
+            android:hint="@string/password_confirm"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/GrayScale"
+            android:textSize="16sp" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:id="@+id/btn_sign_up"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/plate"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:id="@+id/btn_log_in"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/plate_green_bold"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

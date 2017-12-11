@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_layout_image_intro"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="@dimen/height_layout_image_intro"
+            android:layout_gravity="center"
+            android:background="@color/transparent">
+
+            <ImageView
+                android:id="@+id/iv_character"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/icon_character" />
+
+            <ImageView
+                android:id="@+id/iv_hand_character"
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:layout_gravity="bottom|center"
+                android:adjustViewBounds="true"
+                android:paddingTop="5dp"
+                android:src="@drawable/icon_hand_character"
+                android:transformPivotY="95dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/view_message_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="95dp"
+            android:background="@drawable/bg_rectangle_white"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_question" />
+
+            <ha.thanh.pikerfree.customviews.CustomTextView
+                android:id="@+id/tv_word_challenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="To give"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_message_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/bg_rectangle_white"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_question" />
+
+            <ha.thanh.pikerfree.customviews.CustomTextView
+                android:id="@+id/tv_message_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="be received"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_message_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/bg_rectangle_white"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_question" />
+
+            <ha.thanh.pikerfree.customviews.CustomTextView
+                android:id="@+id/tv_message_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="is to"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/tv_message_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="@string/intro_1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_layout_image_intro">210dp</dimen>
+    <dimen name="item_padding_small">8dp</dimen>
+</resources>

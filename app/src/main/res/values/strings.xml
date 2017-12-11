@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">PikerFree</string>
+    <string name="facebook_app_id">152277168741117</string>
+
+    <!-- for the bottom navigation -->
+    <string name="text_summary">Home</string>
+    <string name="text_quest">News</string>
+    <string name="text_message">Message</string>
+    <string name="text_setting">Setting</string>
+    <!-- for intro messages -->
+    <string name="intro_1">A wise man once said that "One man's trash is another man treasure"</string>
+    <string name="intro_2">With this application, you will have a sosial network to give and to be received.</string>
+    <string name="intro_3">Just tap and add some description and give your unused item to someone whom really in need.</string>
+    <string name="intro_4">Just tap and seek for want you need that available from good people around you.</string>
+    <string name="intro_5">PikerFree, free and always</string>
+    <string name="start">Start</string>
+
+    <!-- dummy string. must be removed later -->
+    <string name="title_of_item_hint">Title&#8230;</string>
+    <string name="short_description">Description&#8230;</string>
+
+    <!-- for login/out/ sign ... -->
+    <string name="input_username">Username&#8230;</string>
+    <string name="input_email">Email&#8230;</string>
+    <string name="email">Password&#8230;</string>
+    <string name="password_confirm">Confirm password&#8230;</string>
+    <string name="login">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="we_need_email">We just need your registered email to send your email reset instructions.</string>
+    <string name="dont_have_account">Don\'t have an account? just sign up</string>
+    <string name="already_have_an_account">Already have an account? just log in</string>
+    <string name="forgot_password">Forget password</string>
+    <string name="reset_pass">Reset email</string>
+    <string name="save">Save</string>
+
+    <!-- for status of post -->
+
+    <string name="status_open">Opening</string>
+    <string name="post">Post this</string>
+    <string name="new_post">New post</string>
+    <string name="edit_post">Edit post</string>
+    <string name="status_close">Closed</string>
+    <string name="select_a_category">Select a category</string>
+
+
+    <!-- for view of post -->
+
+    <string name="chat">Chat</string>
+    <string name="confirm_request">To confirm sending request to receive this item. Tap OK.</string>
+    <string name="confirm_delete">Are you sure you want to delete this post?</string>
+    <string name="you_own_this">You are the owner of this post!</string>
+    <string name="delete_this">Delete</string>
+    <string name="edit_this">Edit post</string>
+    <string name="requesting_user">Requesting users:</string>
+    <string name="no_requested_user">No requesting users</string>
+    <string name="send_request">Request</string>
+    <string name="meet_owner">Meet the owner</string>
+    <string name="post_view">POST</string>
+    <string name="google_maps_key">AIzaSyBzW0M_fyOxuSdoCtxZeHiyIELwbNL1p5M</string>
+
+    <!-- download and upload service-->
+
+    <string name="turn_network_on">Please turn on your internet connection</string>
+
+    <!-- for information and upload service-->
+
+    <string name="term_of_use">Bellow are behavior of this application that user need to aware:</string>
+    <string name="role1">When user create a new post, if user\'s location detector is turning on,
+        then application will automatics track the current location of user's device.</string>
+    <string name="role2">The post\'s location is reveal to other users.</string>
+    <string name="role3">User email, name, phone number, address is reveal to other users.</string>
+    <string name="role4">User password is known by only user, system admin won\'t have any
+        clue of user password in the situation of user forgot password.</string>
+    <string name="role5">User can\'t spam message to people.</string>
+    <string name="role6">Requester must respect the choice of Post owner.</string>
+    <string name="role7">User email is reveal to other users.</string>
+    <string name="help1">When you create a new post, make sure your device is turn on location
+        service to make your post\'s location visible to others to help our service connect to seeker near you.</string>
+    <string name="help2">Make sure the title is simple and the images you add to post is clear.</string>
+    <string name="help3">Your description is fine anyway. Other people can ask you more through message.</string>
+    <string name="help4">Choose to follow people will make it notify you when they have new post.</string>
+    <string name="help5">Your old item maybe seem useless to you but have a great power to other.</string>
+    <string name="help6">Please don\'t feel hesitate send request to the post, we people are here to share.</string>
+    <string name="about_team">PikerFree is final year thesis of:</string>
+    <string name="about_team1">Ha Van Thanh - Android developer</string>
+    <string name="about_team2">Pham Thi Dung - Android developer</string>
+    <string name="about_team3">Contact:\nPhone: +84 962 550 486\nEmail: thanhahvan1@gmail.com\nAddress: Linh Trung - Thu Duc - HCM City - Viet Nam.</string>
+
+</resources>

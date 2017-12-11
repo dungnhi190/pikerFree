@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/plate_brown_shade"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Rate this user"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/rate_5"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/plate_green_bold"
+        android:drawableEnd="@drawable/ic_star"
+        android:drawableStart="@drawable/ic_star"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="5 star"
+        android:textColor="@color/green"
+        android:textSize="18sp" />
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/rate_4"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/plate_green_bold_2"
+        android:drawableEnd="@drawable/ic_star"
+        android:drawableStart="@drawable/ic_star"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="4 star"
+        android:textColor="#b0ff00"
+        android:textSize="18sp" />
+
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/rate_3"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/plate_green_bold_3"
+        android:drawableEnd="@drawable/ic_star"
+        android:drawableStart="@drawable/ic_star"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="3 star"
+        android:textColor="#fdff00"
+        android:textSize="18sp" />
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/rate_2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/plate_green_bold_4"
+        android:drawableEnd="@drawable/ic_star"
+        android:drawableStart="@drawable/ic_star"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="2 star"
+        android:textColor="@color/orange"
+        android:textSize="18sp" />
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/rate_1"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/plate_green_bold_5"
+        android:drawableEnd="@drawable/ic_star"
+        android:drawableStart="@drawable/ic_star"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="1 star"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

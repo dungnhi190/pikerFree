@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "485455843827",
+    "firebase_url": "https://pikerfree.firebaseio.com",
+    "project_id": "pikerfree",
+    "storage_bucket": "pikerfree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485455843827:android:c470401a0cae66d0",
+        "android_client_info": {
+          "package_name": "ha.thanh.pikerfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485455843827-5gunv6eargnnaf5mehvu7cckojkak4id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ha.thanh.pikerfree",
+            "certificate_hash": "72fb4d98ff42bfd60ae1d1209152f90642a9d03d"
+          }
+        },
+        {
+          "client_id": "485455843827-1q3ruopvrt42g173dvpqikbs5dam2jni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzW0M_fyOxuSdoCtxZeHiyIELwbNL1p5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485455843827-1q3ruopvrt42g173dvpqikbs5dam2jni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

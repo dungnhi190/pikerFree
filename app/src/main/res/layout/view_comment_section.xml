@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle_green"
+            android:padding="6dp"
+            android:src="@drawable/ic_speech"
+            android:tint="@color/green" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Comments:"
+            android:textColor="@color/text_black_3"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/gray">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_comment_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_user"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="2dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/tv_add_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:gravity="center_vertical"
+            android:hint="Add a comment..."
+            android:textColor="@color/text_black_3"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/btn_add_comment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_paper_plane"
+            android:tint="@color/blue" />
+    </LinearLayout>
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/tv_no_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="No comment on this post"
+        android:textColor="@color/orange"
+        android:textSize="16sp" />
+
+</LinearLayout>

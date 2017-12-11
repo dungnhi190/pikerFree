@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circle_green"
+            android:padding="6dp"
+            android:src="@drawable/ic_like"
+            android:tint="@color/green" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_requesting_user"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="@string/requesting_user"
+            android:textColor="@color/text_black_3"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_requesting_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ha.thanh.pikerfree.customviews.CustomTextView
+        android:id="@+id/tv_no_requesting_user"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/no_requested_user"
+        android:textColor="@color/orange" />
+
+</LinearLayout>

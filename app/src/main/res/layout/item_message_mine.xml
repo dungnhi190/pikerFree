@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="2dp"
+    android:gravity="end">
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:id="@+id/tv_mess_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="end"
+            android:textColor="@color/GrayScale" />
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:id="@+id/tv_mess_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_mess_mine"
+            android:paddingBottom="5dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="13dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

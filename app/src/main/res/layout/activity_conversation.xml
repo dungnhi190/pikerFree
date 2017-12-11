@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="ha.thanh.pikerfree.activities.conversation.ConActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ic_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_op"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginEnd="10dp" />
+
+            <ImageView
+                android:id="@+id/op_status"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignBottom="@+id/img_op"
+                android:layout_alignEnd="@+id/img_op"
+                android:background="@drawable/bg_circle_white"
+                android:padding="2dp"/>
+        </RelativeLayout>
+
+
+        <ha.thanh.pikerfree.customviews.CustomTextView
+            android:id="@+id/tv_op_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_option"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/ic_more"
+            android:tint="@color/white" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_messes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grayGround" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white">
+
+        <ha.thanh.pikerfree.customviews.CustomEditText
+            android:id="@+id/et_mess_to_send"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:hint="Messages..."
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/text_black_3"
+            android:textColorHint="@color/GrayScale" />
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_paper_plane"
+            android:tint="@color/green" />
+    </LinearLayout>
+</LinearLayout>
